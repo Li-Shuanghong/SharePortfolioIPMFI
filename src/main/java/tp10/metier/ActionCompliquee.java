@@ -33,6 +33,12 @@ public class ActionCompliquee extends Action {
         super(nom);
         this.tblComposition = new HashMap<ActionSimple, Proportion>();
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj); //To change body of generated methods, choose Tools | Templates.
+    }
+    
     
     
     @Override
