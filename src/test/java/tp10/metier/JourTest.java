@@ -4,6 +4,7 @@
  */
 package tp10.metier;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -17,7 +18,12 @@ public class JourTest {
     }
 
     @org.junit.jupiter.api.Test
-    public void testSomeMethod() {
+    public void testConstructor() {
+        Integer numJour = 3;
+        Jour j1 = new Jour(numJour);
+        
+        Integer result = j1.getNoJour();
+        Assertions.assertEquals(numJour, result,  "L'entier utilisé ");
     }
     
 }
