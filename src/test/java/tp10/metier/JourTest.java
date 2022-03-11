@@ -26,4 +26,5 @@ public class JourTest {
         Assertions.assertEquals(numJour, result,  "L'entier utilisé ");
     }
     
+    
 }
