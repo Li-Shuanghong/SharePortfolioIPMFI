@@ -19,7 +19,7 @@
 package tp10.metier;
 
 /**
- *
+ * This abstract class is the base for any kind of share
  * @author perussel
  */
 public abstract class Action {
@@ -38,6 +38,7 @@ public abstract class Action {
     public Action(String nom) {
         this.nom = nom;
     }
+    
 
     public abstract float valeur(Jour j);
 
